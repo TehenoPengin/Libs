@@ -1,0 +1,87 @@
+﻿<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Екфтысщвук->Transcoder</title></head>
+
+<textarea name = "comment" id = "area" cols = "40" rows = "3"></textarea><br>
+<button type = "button" onclick = "transcode()"><img width = 150 src = "data:image/png;base64,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"/></button><br>
+<font size = "1">Транскодер от TehenoPengin</font>
+
+<script>
+var mapping =
+{
+	"q": "й",
+	"w": "ц",
+	"e": "у",
+	"r": "к",
+	"t": "е",
+	"y": "н",
+	"u": "г",
+	"i": "ш",
+	"o": "щ",
+	"p": "з",
+	"[": "х",
+	"]": "ъ",
+	"a": "ф",
+	"s": "ы",
+	"d": "в",
+	"f": "а",
+	"g": "п",
+	"h": "р",
+	"j": "о",
+	"k": "л",
+	"l": "д",
+	";": "ж",
+	"'": "э",
+	"z": "я",
+	"x": "ч",
+	"c": "с",
+	"v": "м",
+	"b": "и",
+	"n": "т",
+	"m": "ь",
+	",": "б",
+	".": "ю",
+	"/": ".",
+	"@": "\"",
+	"#": "№",
+	"$": ";",
+	"^": ":",
+	"&": "?",
+	"*": "*"
+};
+
+function getLang(c)
+{
+	if(mapping[c.toLowerCase()] == undefined) return "ru";
+	return "en";
+}
+
+function transform(c)
+{
+	var cp = c;
+	var isCap = c != c.toLowerCase();
+	c = c.toLowerCase();
+	var lang = getLang(c);
+	if(lang == "en") c = mapping[c];
+	else
+	{
+		for(var j in mapping)
+		{
+			if(c == mapping[j])
+			{
+				c = j;
+				break;
+			}
+		}
+	}
+	if(c == undefined) return cp;
+	c = isCap ? c.toUpperCase() : c;
+	return c;
+}
+
+function transcode()
+{
+	var input = document.getElementById("area").value;
+	var output = "";
+	for(var i in input) output += transform(input[i]);
+	document.getElementById("area").value = output;
+}
+</script>
